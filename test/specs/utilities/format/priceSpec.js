@@ -167,7 +167,7 @@ describe('when valid prices are formatted', () => {
 			it('formats 0 as "0.000"', () => {
 				expect(formatPrice(0, '2', '.', false, ',')).toEqual('0.000');
 			});
-			
+
 			it('formats 377 as "377.000"', () => {
 				expect(formatPrice(377, '2', '.', false, ',')).toEqual('377.000');
 			});
